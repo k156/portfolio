@@ -1,4 +1,4 @@
-학번을 주면 해당 학생의 전과목 평균을 반환하는 Stored Procedure 를 작성하시오.
+# 학번을 주면 해당 학생의 전과목 평균을 반환하는 Stored Procedure 를 작성하시오.
 
 DELIMITER $$
 CREATE Function f_student_avg(_id int) 
