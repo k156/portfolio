@@ -1,6 +1,6 @@
 2. 위 문제의 데이터 표준 지침에 의거하여 아래 4개 테이블들을 MySQL에서 생성하는 스크립트를 작성하시오.
 ----------------------------------------------------------------------------------------------
-~~~
+
 drop table if exists Departments;
 
 create table Departments(
@@ -55,4 +55,3 @@ create table JobHistory(
      constraint foreign key fk_departments(department_id) references Departments(id),
       primary key (employee_id, start_date)
 );
-~~~
