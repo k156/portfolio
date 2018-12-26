@@ -36,7 +36,7 @@ create table Employees (
       job_id varchar(10) not null default '',
       department_id int unsigned not null default 0 ,
      constraint foreign key fk_jobs(job_id) references Jobs(id),
-     constraint foreign key fk_departments(department_id) references Departments(id)
+     constraint foreign key fk_departments(department_id) references Departments(id),
      constraint unique key unique_email (email)
 );
 
